@@ -20,7 +20,7 @@ with open("tfidf_vectorizer.pkl", "rb") as f:
 with st.sidebar:
     st.header("About this App")
     st.write("""
-    This app classifies Amazon Alexa customer reviews into **Positive ✅**, **Negative ❌**, or **Neutral ⚪** (low-confidence cases).
+    This app classifies Amazon Alexa customer reviews into **Positive ✅**, **Negative ❌**.
 
     **Tech Stack:**
     - Python, Streamlit
