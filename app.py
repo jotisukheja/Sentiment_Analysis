@@ -44,8 +44,8 @@ with st.sidebar:
     selected_review = st.selectbox("Select a sample review:", sample_reviews)
 
 # ------------------ Main App ------------------
-st.title("📝 Customer Feedback Sentiment Classifier")
-st.write("Enter customer feedback text below and the model will classify it as **Positive ✅**, **Negative ❌**, or **Neutral ⚪** (low-confidence).")
+st.title("Alexa Feedback Sentiment Classifier")
+st.write("Enter customer feedback text below and the model will classify it as **Positive ✅** or **Negative ❌**")
 
 input_text = st.text_area("Enter feedback here...", height=150, value=selected_review)
 
